@@ -1,0 +1,5 @@
+pyspark==3.3.0            # Apache Spark library for big data processing and ML
+flask==2.0.2              # Flask framework for building web applications and APIs
+kafka-python==2.0.2       # Kafka client for Python to interact with Kafka topics
+pandas==1.4.0             # Data manipulation library (optional but useful for EDA)
+numpy==1.22.0             # Numerical computing library (optional but useful for EDA)
