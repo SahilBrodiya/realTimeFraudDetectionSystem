@@ -20,3 +20,18 @@ The **Real-Time Fraud Detection System** is designed to analyze credit card tran
 - **Docker**: For containerization of the application.
 
 ## Project Structure
+fraud-detection/
+├── data/
+│   └── creditcard.csv                  # Dataset for training and testing
+├── notebooks/
+│   └── eda.ipynb                       # Exploratory Data Analysis (optional)
+│   └── model_training.ipynb            # Model training notebook (optional)
+├── src/
+│   ├── data_preparation.py              # Data preparation script
+│   ├── model_training.py                 # Model training script
+│   ├── streaming_service.py              # Real-time streaming service script
+│   └── app.py                           # Flask API for predictions
+├── models/                               # Directory to save the trained model
+│   └── random_forest_model               # Trained model directory
+├── requirements.txt                     # Python dependencies
+└── Dockerfile                           # Dockerfile for containerization
