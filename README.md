@@ -19,9 +19,9 @@ The **Real-Time Fraud Detection System** is designed to analyze credit card tran
 - **Python**: Programming language used for development.
 - **Docker**: For containerization of the application.
 
-## Project Structure\n
-fraud-detection/\n
-├── data/\n
+## Project Structure
+fraud-detection/
+├── data/
 │   └── creditcard.csv                  # Dataset for training and testing
 ├── notebooks/
 │   └── eda.ipynb                       # Exploratory Data Analysis (optional)
@@ -35,3 +35,4 @@ fraud-detection/\n
 │   └── random_forest_model               # Trained model directory
 ├── requirements.txt                     # Python dependencies
 └── Dockerfile                           # Dockerfile for containerization
+
